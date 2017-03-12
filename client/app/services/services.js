@@ -16,7 +16,7 @@ angular.module('shortly.services', [])
       method: 'POST',
       url: '/api/links',
       data: link
-    })
+    });
   };
 
   return {
